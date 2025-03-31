@@ -25,7 +25,7 @@ def withdrawal(balance):
         return amount 
 
 
-def bankingprogram2():
+def ATMprogram():
     balance = 0 
     programrunning = True 
 
@@ -51,6 +51,4 @@ def bankingprogram2():
             print('Please select a number between 1 and 3')
 
     print(f'Your final balance was £{balance} \n')
-    print('Thank you for using banking services. We hope you have a good day')
-
-    bankingprogram2()
+    print('Thank you for using our banking services. We hope you have a good day')
