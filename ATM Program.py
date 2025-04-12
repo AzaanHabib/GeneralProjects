@@ -1,8 +1,8 @@
 
-
 def balance(balance):
     print(f'Your balance is £{balance:.2f}')
 
+# Program which adds an amount of money to the user's bank balance
 def deposit():
     amount = float(input('Please enter an amount of money'))
 
@@ -12,6 +12,7 @@ def deposit():
     else:
         return amount
 
+# Program which removes an amount of money from a user's bank balance
 def withdrawal(balance):
     amount = float(input('Please enter an amount of money'))
 
@@ -24,12 +25,12 @@ def withdrawal(balance):
     else:
         return amount 
 
-
+# The ATM program, allowing hte user to add or withdraw money from their bank account
 def ATMprogram():
     balance = 0 
     programrunning = True 
 
-    print('Welcome to banking services. Select an option to continue.')
+    print('Welcome to our banking services. Select an option to continue.')
     while programrunning:
         print(f'Your balance is currently £{balance} \n')
         print('Select an option to proceed:\n')
