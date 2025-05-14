@@ -25,7 +25,7 @@ def withdrawal(balance):
     else:
         return amount 
 
-# The ATM program, allowing hte user to add or withdraw money from their bank account
+# The ATM program, allowing the user to add or withdraw money from their bank account
 def ATMprogram():
     balance = 0 
     programrunning = True 
